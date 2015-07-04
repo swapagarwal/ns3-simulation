@@ -29,3 +29,13 @@ After a while, 2 CBR over UDP flows (each with 20 Mbps) are started.
 Rate of one UDP flow is increased upto 100 Mbps which impacts the throughput of the TCP flows and the other UDP flow.
 
 The buffer size is varied in the range of 10 packets to 800 packets and the above is repeated to find out the impact of buffer size on the fair share of bandwidth.
+
+### Plots
+
+Rate of UDP flow is increased at 10 seconds.
+
+![Effect of UDP change on TCP Throughput](https://github.com/swapagarwal/ns3-simulation/blob/master/plot-2d-effect-of-udp-on-tcp-throughput.png)
+
+![Effect of UDP change on Throughput](https://github.com/swapagarwal/ns3-simulation/blob/master/plot-2d-effect-of-udp-on-throughput.png)
+
+![Effect of UDP change on Fairness](https://github.com/swapagarwal/ns3-simulation/blob/master/plot-2d-effect-of-udp-on-fairness.png)
