@@ -225,7 +225,7 @@ for(int bufSize=10*1500;bufSize<=800*1500;)
   NetDeviceContainer d4d5 = p2p.Install (n4n5);
   NetDeviceContainer d4d6 = p2p.Install (n4n6);
   NetDeviceContainer d4d7 = p2p.Install (n4n7);
-	p2p.SetQueue("ns3::DropTailQueue","Mode",EnumValue (DropTailQueue::QUEUE_MODE_BYTES),"MaxBytes",UintegerValue (125000));
+  p2p.SetQueue("ns3::DropTailQueue","Mode",EnumValue (DropTailQueue::QUEUE_MODE_BYTES),"MaxBytes",UintegerValue (125000));
   p2p.SetDeviceAttribute ("DataRate", StringValue ("10Mbps"));
   p2p.SetChannelAttribute ("Delay", StringValue ("100ms"));
   NetDeviceContainer d3d4 = p2p.Install (n3n4);
